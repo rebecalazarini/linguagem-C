@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main () {
+    int velocidade;
+    int distancia;
+    int tempo;
+    
+    printf("digite dois numeros inteiros");
+    scanf("%d %d", &velocidade, &distancia);
+    
+    tempo=velocidade/distancia;
+    printf("a divisão de velocidade/distancia é %d", tempo);
+    return 0;
+}
