@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main () {
+    char nome_pessoa[23];
+    int salario_pessoa;
+    int reajuste=1000;
+    float indice=0.08;
+    int total;
+    printf("digite o nome da pessoa: ");
+    scanf("%s", nome_pessoa);
+    
+    printf("digite  salario: ");
+    scanf("%d", &salario_pessoa);
+    
+    total=1000*0.08+salario_pessoa;
+    printf("A multiplicação de 1000*0.08+salario_pessoa é %d", total);
+    return 0;
+}
