@@ -1,0 +1,22 @@
+#include <stdio.h> 
+#include<locale.h> 
+int main() { 
+setlocale(LC_ALL,""); 
+char nome_cidade[50]; 
+int total_eleitores, total_votos; 
+float participacao;
+
+printf("Digite o nome da cidade: ");
+scanf("%s", nome_cidade);
+
+printf("Digite o número total de eleitores da cidade: ");
+scanf("%d", &total_eleitores);
+
+printf("Digite o número total de votos apurados na última eleição: ");
+scanf("%d", &total_votos);
+
+participacao = (float)total_votos / total_eleitores * 100;
+
+printf("Porcentagem de participação dos eleitores de %s na última eleição: %.2f%%\n", nome_cidade, participacao);
+
+return 0;}
