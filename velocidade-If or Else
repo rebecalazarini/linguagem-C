@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+    char carro[100];
+    int velocidade;
+    
+    printf("digite o nome do carro: ");
+    scanf("%s", carro);
+    
+    printf("digite a velocidade: ");
+    scanf("%d", &velocidade);
+    
+    if(velocidade>=100){
+        printf("Rápido");
+    } else {
+        printf("Devagar");
+    }
+    return 0;
+    
+}
