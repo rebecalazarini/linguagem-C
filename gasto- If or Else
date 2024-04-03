@@ -5,7 +5,7 @@ int main(){
     int gasto;
     int saldo;
     
-    printf("digite da pessoa: ");
+    printf("digite o nome da pessoa: ");
     scanf("%s", nome);
     
     printf("digite o ganho: ");
