@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    char mês[40];
+    int horas_trabalhadas;
+    int salario;
+    int total;
+    printf("nome do mes: ");
+    scanf("%s", mês); 
+    
+    printf("Quanto você ganha por hora: ");
+    scanf("%d", &salario);
+    
+    printf("Quantas horas foram trabalhadas: ");
+    scanf("%d", &horas_trabalhadas);
+    
+    total=salario*horas_trabalhadas;
+    
+    printf("O total do seu salario no referido mes foi = %d", total);
+    
+    return 0;
+}
