@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main () {
+    int ano_nasceu;
+    int ano_atual=2024;
+    char nome [50];
+    
+    printf ("Digite o ano que nasceu: ");
+    scanf("%d", &ano_nasceu);
+    
+    printf("Digite seu nome: ");
+    scanf("%s", nome);
+
+    
+    if(2024-ano_nasceu>=16){
+    printf ("pode votar");
+
+     }else{
+     printf ("não pode");
+
+}
+    
+    return 0;
+}
